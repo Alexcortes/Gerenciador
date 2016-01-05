@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="16/10/2010"
+            android:id="@+id/txtData1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/txtData2"
+            android:layout_below="@+id/txtData1"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/txtData3"
+            android:layout_below="@+id/txtData2"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/txtData4"
+            android:layout_below="@+id/txtData3"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/txtData5"
+            android:layout_below="@+id/txtData4"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/txtData6"
+            android:layout_below="@+id/txtData5"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/txtData7"
+            android:layout_below="@+id/txtData6"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/txtData9"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/txtData8"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/txtData8"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/txtData7"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/txtData10"
+            android:layout_below="@+id/txtData9"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp" />
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/pbProducao1"
+            android:layout_above="@+id/txtData2"
+            android:layout_toEndOf="@+id/txtData1"
+            android:max="6000"
+            android:indeterminate="false" />
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/pbProducao2"
+            android:layout_above="@+id/txtData3"
+            android:layout_toEndOf="@+id/txtData2"
+            android:max="6000"
+            android:indeterminate="false" />
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/pbProducao3"
+            android:layout_above="@+id/txtData4"
+            android:layout_toEndOf="@+id/txtData3"
+            android:max="6000"
+            android:indeterminate="false" />
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/pbProducao4"
+            android:layout_above="@+id/txtData5"
+            android:layout_toEndOf="@+id/txtData4"
+            android:max="6000"
+            android:indeterminate="false" />
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/pbProducao5"
+            android:layout_above="@+id/txtData6"
+            android:layout_toEndOf="@+id/txtData5"
+            android:max="6000"
+            android:indeterminate="false" />
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/pbProducao6"
+            android:layout_above="@+id/txtData7"
+            android:layout_toEndOf="@+id/txtData6"
+            android:max="6000"
+            android:indeterminate="false" />
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/pbProducao7"
+            android:layout_above="@+id/txtData8"
+            android:layout_toEndOf="@+id/txtData7"
+            android:max="6000"
+            android:indeterminate="false" />
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/pbProducao8"
+            android:layout_above="@+id/txtData9"
+            android:layout_toEndOf="@+id/txtData8"
+            android:max="6000"
+            android:indeterminate="false" />
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/pbProducao9"
+            android:layout_above="@+id/txtData10"
+            android:layout_toEndOf="@+id/txtData9"
+            android:max="6000"
+            android:indeterminate="false" />
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/pbProducao10"
+            android:layout_alignBottom="@+id/txtData10"
+            android:layout_toEndOf="@+id/txtData10"
+            android:max="6000"
+            android:indeterminate="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Nenhuma medição encontrada!!"
+            android:id="@+id/txtErroMedicao"
+            android:layout_alignTop="@+id/txtData5"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.alex.gerenciador" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Activities.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.VacasActivity">
+        </activity>
+        <activity
+            android:name=".Activities.NovaVacaActivity">
+        </activity>
+        <activity
+            android:name=".Activities.DetalheVacaActivity">
+        </activity>
+        <activity
+            android:name=".Activities.TiposAnimaisActivity">
+        </activity>
+
+        <activity
+            android:name=".Activities.MedicaoActivity">
+        </activity>
+        <activity
+            android:name=".Activities.GraficoActivity">
+        </activity>
+    </application>
+
+</manifest>
